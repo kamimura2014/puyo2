@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<ImageView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/title" />
+
+<Button
+	android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/one_play"
+    android:id="@+id/one_play"
+    android:onClick="onClickOnePlayButtton"
+    />
+<Button
+	android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/two_play"
+    android:id="@+id/two_play"
+    android:onClick="onClickTwoPlayButtton"
+    />
+</LinearLayout>
+

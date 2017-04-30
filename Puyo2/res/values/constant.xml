@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--ポートナンバー -->
+    <integer name="port">8898</integer>
+	<!--ｃｐuの難しさ-->
+    <integer name="cpu_easy">0</integer>
+	<integer name="cpu_normal">1</integer>
+	<integer name="cpu_hard">2</integer>
+	<!--プレイヤー-->
+	<integer name="one_player">0</integer>
+	<integer name="two_player">1</integer>
+	<!--時間-->
+	<integer name="basic_time">50</integer>
+	<integer name="max_time_number">10</integer>
+	<!--ステージの大きさ-->
+	<integer name="stage_height_num">13</integer>	<!-- ステージの縦の大きさ -->
+	<integer name="stage_width_num">6</integer>		<!--ステージの横の大きさ-->
+	<!--ぷよがくっついて消える数 -->
+	<integer name="erase_stick_num">4</integer>
+	<!--一度に落ちてくる最大じゃまぷよ数-->
+	<integer name="drop_jama_puyo_max_num">30</integer>
+	<!--コントローラーのタッチしている長さ-->
+	<integer name="end_touch">0</integer>
+	<integer name="start_touch">1</integer>
+	<integer name="long_press">6</integer>
+	<!--wifidirectの端末設定の種類-->
+	<item type="id" name="search" />
+	<item type="id" name="connect" />
+	<item type="id" name="disconnect" />
+	<!--ダイアログの種類-->
+	<item type="id" name="dialog_none" />
+	<item type="id" name="dialog_countdown" />
+	<item type="id" name="dialog_searching_device" />
+	<item type="id" name="dialog_connecting_device" />
+	<item type="id" name="dialog_communication" />
+	<item type="id" name="dialog_play_offer" />
+	<item type="id" name="dialog_game_over" />
+	<item type="id" name="dialog_game_stop" />
+	<item type="id" name="dialog_play_offer_cancel" />
+	<item type="id" name="dialog_cpu_difficulty" />
+	<item type="id" name="dialog_device_list" />
+	<item type="id" name="dialog_winner" />
+	<item type="id" name="dialog_loser" />
+	<item type="id" name="dialog_draw" />
+	<item type="id" name="dialog_err_wifi_direct" />
+	<item type="id" name="dialog_err_serch_device" />
+	<item type="id" name="dialog_err_connect_device" />
+	<item type="id" name="dialog_err_disconnect_device" />
+	<item type="id" name="dialog_err_communicate" />
+	<!--ぷよのコントロール方法-->
+	<item type="id" name="move_none" />
+	<item type="id" name="move_right" />
+	<item type="id" name="move_left" />
+	<item type="id" name="move_down" />
+	<item type="id" name="turn_right" />
+	<item type="id" name="turn_left" />
+	<!-- ゲームの移行-->
+	<item type="id" name="game_none" />
+	<item type="id" name="count_down" />
+	<item type="id" name="game_start" />
+	<item type="id" name="game_stop" />
+	<item type="id" name="game_exit" />
+	<!--ゲームの種類 -->
+	<item type="id" name="score_attack" />
+	<item type="id" name="cpu_play" />
+	<item type="id" name="two_play" />
+	<!-- cpuの値 -->
+	<integer name="cpu_none">0</integer>
+	<integer name="set_handicap">1</integer>
+	<integer name="start_cpu">2</integer>
+</resources>

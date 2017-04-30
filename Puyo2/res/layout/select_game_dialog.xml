@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+ 	xmlns:android="http://schemas.android.com/apk/res/android"
+ 	android:orientation="vertical"
+ 	android:layout_width="wrap_content"
+ 	android:layout_height="wrap_content">
+ 	<Button
+		android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:text="@string/score_attack"
+    	android:id="@+id/one_play_btn"
+    	android:onClick="onClickScoreAttackButton"
+    />
+ 	<Button
+		android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:text="@string/vs_ai_cpu"
+		android:id="@+id/cpu_btn"
+		android:onClick="onClickCpuButtotn"
+	/>
+</LinearLayout>
